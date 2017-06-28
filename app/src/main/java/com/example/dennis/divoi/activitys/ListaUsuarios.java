@@ -1,0 +1,35 @@
+package com.example.dennis.divoi.activitys;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ImageButton;
+
+import com.example.dennis.divoi.R;
+import com.example.dennis.divoi.fragments.PalavrasFragment;
+import com.example.dennis.divoi.fragments.UsuariosFragment;
+
+/**
+ * Created by dennis on 22/06/17.
+ */
+
+public class ListaUsuarios extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_listausuarios);
+
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.containerUsuarios, new UsuariosFragment());
+        ft.commit();
+
+
+    }
+
+}

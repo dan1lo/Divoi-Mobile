@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dennis.divoi.activitys.DetalhePalavraActivity">
+
+
+    <item android:id="@+id/action_tirarFoto"
+        android:title="Tirar foto"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_gravarAudio"
+        android:title="Gravar audio"
+        android:icon="@drawable/ic_mic_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_editar"
+        android:title="Editar palavra"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+</menu>

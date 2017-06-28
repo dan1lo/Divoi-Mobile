@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1086493671734",
+    "firebase_url": "https://divoi-11988.firebaseio.com",
+    "project_id": "divoi-11988",
+    "storage_bucket": "divoi-11988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086493671734:android:5bc38f7b2be1795e",
+        "android_client_info": {
+          "package_name": "com.example.dennis.divoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086493671734-pvo1rifc7mshie1faq0pjeu5e3n499d0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dennis.divoi",
+            "certificate_hash": "245a40832e5affc72fa298026c9cf9ad3eca8dd3"
+          }
+        },
+        {
+          "client_id": "1086493671734-e0230kkork6uramim94n4jpvq56pc2te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsPbbpe_I_smx8unwcDGuV3IgmrPZAsyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086493671734-e0230kkork6uramim94n4jpvq56pc2te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

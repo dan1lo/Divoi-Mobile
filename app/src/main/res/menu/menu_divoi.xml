@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dennis.divoi.activitys.MainActivity">
+
+
+    <item android:id="@+id/action_login"
+        android:title="Login"
+        app:showAsAction="never"/>
+
+</menu>

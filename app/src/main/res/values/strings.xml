@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Divoi</string>
+
+    <string name="acao_pesquisar">Pesquisar</string>
+    <string name="acao_novo">Novo</string>
+    <string name="acao_info">Info</string>
+    <string name="hint_busca">Procurar Língua</string>
+
+</resources>

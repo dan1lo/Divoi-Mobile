@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebeae9"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/textViewPalavra"
+                    android:textSize="40dp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tradução"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTraducaoPalavra"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aplicação numa frase"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewAplicacaoFrase"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/colorAccent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tradução da frase"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTraducaoFrase"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:layout_gravity="bottom">
+            <ImageButton
+                android:id="@+id/imageButton_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_volume_up_black_24dp"
+                android:background="@android:color/transparent"
+                android:layout_margin="5dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="3dp"
+                android:layout_gravity="center"/>
+            <ImageButton
+                android:id="@+id/imageButton_imagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_image_black_24dp"
+                android:layout_marginLeft="90dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+</LinearLayout>

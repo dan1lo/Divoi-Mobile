@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/contentPalavra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/containerPalavra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/fabutton_cadastrarpalavra"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/fab_oval"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="#FFF"
+        app:layout_anchor="@id/containerPalavra"
+        app:layout_anchorGravity="bottom|right|end" />
+
+
+</android.support.design.widget.CoordinatorLayout>
